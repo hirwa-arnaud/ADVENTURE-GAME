@@ -5,7 +5,13 @@ console.log("hello", name,"Welcome to the game" )
 const ShouldWePlay = prompt("Do you  want to play  ")
 
 if (ShouldWePlay.toLowerCase() === "yes") {
-    console.log("Thanks we will play")
+    const lang = prompt("Between USA and China which country have more population ")
+    if (lang.toLowerCase() === "USA"){
+        console.log("You are Wrong")
+}
+        else if (lang.toLowerCase() === "china"){
+            console.log("Correct")
+        }
 }
 else if (ShouldWePlay.toLowerCase() === "no"){
     console.log("You missed the game")
