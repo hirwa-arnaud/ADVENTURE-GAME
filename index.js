@@ -4,5 +4,12 @@ console.log("hello", name,"Welcome to the game" )
 
 const ShouldWePlay = prompt("Do you  want to play  ")
 
-const condition = ShouldWePlay.toLowerCase() === "yes"
-console.log(condition)
+if (ShouldWePlay.toLowerCase() === "yes") {
+    console.log("Thanks we will play")
+}
+else if (ShouldWePlay.toLowerCase() === "no"){
+    console.log("You missed the game")
+}
+else{
+    console.log("Invalid input")
+}
