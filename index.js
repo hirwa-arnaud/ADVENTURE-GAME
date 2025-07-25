@@ -6,7 +6,7 @@ const ShouldWePlay = prompt("Do you  want to play  ")
 
 if (ShouldWePlay.toLowerCase() === "yes") {
     const lang = prompt("Between USA and China which country have more population ")
-    if (lang.toLowerCase() === "USA"){
+    if (lang.toLowerCase() === "usa") {
         console.log("You are Wrong")
 }
         else if (lang.toLowerCase() === "china"){
